@@ -1,0 +1,16 @@
+{
+  "name": "nexus-context-system",
+  "version": "0.1.0",
+  "description": "Universal Development Context Management System",
+  "main": "scripts/context-retriever.js",
+  "scripts": {
+    "context:retrieve": "node scripts/context-retriever.js",
+    "setup": "npm install && npm run context:retrieve"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+project:
+  name: Nexus
+  description: Universal Development Context Management System
+  version: 0.1.0
+  primary_contact: developer@nexus.dev
+
+context_markers:
+  - key: project_inception
+    timestamp: 2024-02-02T12:00:00Z
+    summary: Initial design of cross-editor context management system
+
+modules:
+  - name: NexusCore
+    primary_responsibility: Base worker implementation
+    key_concepts:
+      - Universal worker interface
+      - Platform-agnostic design
+
+  - name: NexusForge
+    primary_responsibility: Platform-specific adapters
+    supported_platforms:
+      - macOS
+      - Linux
+      - Windows
+      - Web/Electron
+
+  - name: NexusPrism
+    primary_responsibility: Editor extensions
+    supported_editors:
+      - VSCode
+      - Neovim
+      - JetBrains IDEs
+
+  - name: NexusSynapse
+    primary_responsibility: Service providers
+    supported_services:
+      - GitHub
+      - GitLab
+      - Bitbucket
+
+  - name: NexusVertex
+    primary_responsibility: Authentication mechanisms
+    security_principles:
+      - No cleartext token storage
+      - Secure token exchange
+      - Minimal token exposure
+
+development_context:
+  primary_language: TypeScript
+  architecture: Modular, event-driven
+  design_philosophy:
+    - Cross-platform compatibility
+    - Minimal core implementation
+    - Extensible command handling
+
+retrieval_hints:
+  - Check logs/ directory for detailed discussion logs
+  - Refer to README.md in each module for overview
+  - Consult Conversation_Full_Log.md for complete context

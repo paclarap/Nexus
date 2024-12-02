@@ -1,0 +1,29 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "packages/NexusCore"
+        },
+        {
+            "path": "packages/NexusForge"
+        },
+        {
+            "path": "packages/NexusPrism"
+        },
+        {
+            "path": "packages/NexusSynapse"
+        },
+        {
+            "path": "packages/NexusVertex"
+        }
+    ],
+    "settings": {
+        "typescript.tsdk": "node_modules/typescript/lib",
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/.git": true
+        }
+    }
+}
