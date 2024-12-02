@@ -1,0 +1,15 @@
+[submodule "Core"]
+	path = Core
+	url = https://github.com/paclarap/NexusCore.git
+[submodule "Vertex"]
+	path = Vertex
+	url = https://github.com/paclarap/NexusVertex.git
+[submodule "Synapse"]
+	path = Synapse
+	url = https://github.com/paclarap/NexusSynapse.git
+[submodule "Prism"]
+	path = Prism
+	url = https://github.com/paclarap/NexusPrism.git
+[submodule "Forge"]
+	path = Forge
+	url = https://github.com/paclarap/NexusForge.git
